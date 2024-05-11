@@ -36,7 +36,7 @@ class OrderBuilder{
 
     build() {
         if (!this.idOrder || !this.date || !this.idClient || !this.products || !this.idEmployee === 0){
-            throw new Error("No se puede construir la orden sin datos.");
+            throw new Error("No se puede construir la orden sin todos los datos.");
     }
 
     return new Order(this.idClient,

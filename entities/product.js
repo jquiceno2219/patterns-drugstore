@@ -8,6 +8,12 @@ class Product {
         this.idProvider = idProvider;
         
     }
+
+    //Use of prototype pattern
+    clone() {
+        // Creating a new instance and cloning the attributes
+        return new Product(this.idProduct, this.productName, this.description, this.price, this.stock, this.idProvider);
+      }
 }
 
 module.exports = Product;
