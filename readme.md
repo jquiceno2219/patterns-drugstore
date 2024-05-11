@@ -6,4 +6,4 @@ Singleton: EmployeeManager
 
 Prototype: Producto
 
-![](Patterns-Drugstore\assets\Patron_Diseño-Página-3.drawio.png)
+![](/assets/Patron_Diseño-Página-3.drawio.png)
